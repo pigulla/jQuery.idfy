@@ -1,12 +1,12 @@
 {
     "name": "idfy",
     "title": "jQuery.idfy - Create ids for elements on demand",
-    "description": "A jQuery that generates random ids for DOM elements on demand. It doesn't touch the id attribute if it is already there.",
+    "description": "A simple jQuery plugin that generates random ids for DOM elements on demand. It doesn't touch the id attribute if it is already there.",
     "keywords": [
         "id",
         "util"
     ],
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": {
         "name": "Raphael Pigulla",
         "email": "pigulla@four66.com",
