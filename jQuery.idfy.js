@@ -1,10 +1,9 @@
 /**
- * A simple jQuery-plugin that generates random ids for all elements in the current set that do not yet have one.
+ * A simple jQuery-plugin that generates random ids for all elements in the
+ * current set that do not yet have one.
  *
- * Usage:
- *   $('.foo').idfy();   // generates ids for all elements with class "foo" unless they already have one
- *   $('.foo').ids();    // like above, but returns the set of ids of each element instead of the element set itself
- *   $('.foo').id();     // like above, but returns the id of the first element only (or undefined if the set is empty)
+ * @author Raphael Pigulla <pigulla@four66.com>
+ * @version 0.1.1
  */
 (function ($) {
     'use strict';
