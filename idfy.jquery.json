@@ -1,0 +1,27 @@
+{
+    "name": "idfy",
+    "title": "jQuery.idfy - Create ids for elements on demand",
+    "description": "A jQuery that generates random ids for DOM elements on demand. It doesn't touch the id attribute if it is already there.",
+    "keywords": [
+        "id",
+        "util"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Raphael Pigulla",
+        "email": "pigulla@four66.com",
+        "url": "http://www.n3rd.org"
+    },
+    "licenses": [
+        {
+            "type": "WTFPL",
+            "url": "http://www.wtfpl.net/txt/copying/"
+        }
+    ],
+    "bugs": "https://github.com/pigulla/jQuery.idfy/issues",
+    "homepage": "https://github.com/pigulla/jQuery.idfy",
+    "docs": "https://github.com/pigulla/jQuery.idfy",
+    "dependencies": {
+        "jquery": "*"
+    }
+}
