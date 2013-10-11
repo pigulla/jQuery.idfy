@@ -25,7 +25,7 @@
     $.fn.ids = function () {
         return this.idfy().map(function () {
             return $(this).attr('id');
-        }).filter(function (id) {
+        }).filter(function (idx, id) {
             return id.length > 0;
         });
     };
