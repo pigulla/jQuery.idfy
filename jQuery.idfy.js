@@ -12,24 +12,26 @@
         return ('id' + (+new Date() + Math.random())).replace('.', '');
     }
 
-    /*jshint unused: false*/
-    $.fn.idfy = function (options) {
+    $.fn.idfy = function () {
         this.each(function () {
-            if (typeof $(this).attr('id') === 'undefined') {
+            var id = $(this).attr('id');
+            if (typeof id === 'undefined' || id.length === 0) {
                 $(this).attr('id', generateId());
             }
         });
         return this;
     };
 
-    $.fn.ids = function (options) {
+    $.fn.ids = function () {
         return this.idfy().map(function () {
             return $(this).attr('id');
+        }).filter(function (id) {
+            return id.length > 0;
         });
     };
 
-    $.fn.id = function (options) {
+    $.fn.id = function () {
         var ids = this.ids();
-        return ids.length > 0 ? ids[0] : void(0);
+        return (ids.length === 0 || ids[0].length === 0) ? void(0) : ids[0];
     };
 })(jQuery);
