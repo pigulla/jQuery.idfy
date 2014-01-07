@@ -1,0 +1,23 @@
+{
+  "name": "jQuery.idfy",
+  "main": "jQuery.idfy.js",
+  "version": "0.1.4",
+  "homepage": "https://github.com/pigulla/jQuery.idfy",
+  "authors": [
+    "Raphael Pigulla <pigulla@four66.com>"
+  ],
+  "description": "A simple jQuery-plugin that generates random ids for all elements in the current set that do not yet have one.",
+  "keywords": [
+    "jquery",
+    "id",
+    "util"
+  ],
+  "license": "WTFPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
