@@ -15,8 +15,8 @@ $('.foo').idfy();
 // of each element instead of the element set itself.
 $('.foo').ids();
 
-// Like above, but returns the id of the first element only (or undefined if the
-// set is empty).
+// Like above, but returns (and creates if necessary) the id of the first element
+// only (or undefined if the set is empty).
 $('.foo').id();
 ```
 
