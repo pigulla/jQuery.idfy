@@ -3,7 +3,7 @@
  * current set that do not yet have one.
  *
  * @author Raphael Pigulla <pigulla@four66.com>
- * @version 0.1.2
+ * @version 0.1.5
  */
 (function ($) {
     'use strict';
