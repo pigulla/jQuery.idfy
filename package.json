@@ -1,6 +1,6 @@
 {
   "name": "jquery.idfy",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A simple jQuery-plugin that generates random ids for all elements in the current set that do not yet have one.",
   "main": "jQuery.idfy.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "url": "https://github.com/pigulla/jQuery.idfy.git"
   },
   "keywords": [
+    "jquery-plugin",
     "jquery",
     "idfy",
     "id",
